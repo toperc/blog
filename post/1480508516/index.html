@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>Android开发图片缓存框架Glide的总结 - iXinRun</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://blog.ixin.run/post/1480508516/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="前段时间写过一篇图片缓存框架Picasso的用法，对于Picasso有些同学也比较熟悉，采用Lru最近最少缓存策略，并且自带内存和硬盘缓存机制，在图片加载尤其是多图加载着实为大伙省了不少力，在此之前同样也相识有Afinal、Xutil、UniversalImageLoader等优秀的开源框架，今天再总结一个图片加载缓存框架 — Glide，以助自己后边的项目构建舔砖加瓦吧。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Android开发图片缓存框架Glide的总结">
+<meta property="og:url" content="https://blog.ixin.run/post/1480508516/index.html">
+<meta property="og:site_name" content="iXinRun">
+<meta property="og:description" content="前段时间写过一篇图片缓存框架Picasso的用法，对于Picasso有些同学也比较熟悉，采用Lru最近最少缓存策略，并且自带内存和硬盘缓存机制，在图片加载尤其是多图加载着实为大伙省了不少力，在此之前同样也相识有Afinal、Xutil、UniversalImageLoader等优秀的开源框架，今天再总结一个图片加载缓存框架 — Glide，以助自己后边的项目构建舔砖加瓦吧。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.ixin.run/post/1480508516/avatar.jpg">
+<meta property="article:published_time" content="2016-11-30T12:21:56.000Z">
+<meta property="article:modified_time" content="2021-01-14T08:08:54.897Z">
+<meta property="article:author" content="i猩人">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.ixin.run/post/1480508516/avatar.jpg">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"url":"https://blog.ixin.run","image":"https://blog.ixin.run/avatar.jpg","description":"","author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"}},{"@context":"http://schema.org","@type":"Article","articleSection":"Android","url":"https://blog.ixin.run/post/1480508516/","headline":"Android开发图片缓存框架Glide的总结","image":"https://blog.ixin.run/avatar.jpg","datePublished":"2016-11-30T12:21:56.000Z","dateModified":"2021-01-14T08:08:54.897Z","keywords":"","description":"前段时间写过一篇图片缓存框架Picasso的用法，对于Picasso有些同学也比较熟悉，采用Lru最近最少缓存策略，并且自带内存和硬盘缓存机制，在图片加载尤其是多图加载着实为大伙省了不少力，在此之前同样也相识有Afinal、Xutil、UniversalImageLoader等优秀的开源框架，今天再总结一个图片加载缓存框架 — Glide，以助自己后边的项目构建舔砖加瓦吧。","publisher":{"@type":"Organization","name":"iXinRun","logo":{"@type":"ImageObject","url":"https://blog.ixin.run/avatar.jpg"}},"author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.ixin.run/post/1480508516/"}}]</script><link rel="alternate" type="application/atom+xml" title="iXinRun" href="/atom.xml">
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-112498005-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-112498005-1');</script>
+<!-- hexo injector head_end start --><link href="//fonts.googleapis.com/css?family=Noto+Sans|Gloria+Hallelujah|Faster+One|Montserrat|Inconsolata" rel="stylesheet"><link href="/styles.43478ea7e28ed563c48b.css" rel="stylesheet">
+<script src="/config.a18dc2c01a10982f2f63.js"></script>
+
+<link rel="stylesheet" href="/theme.a45ffdc9cc39f7df5e09.css" is="theme">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.3.0"></head>
+<body lang="zh-Hans"><!-- hexo injector body_begin start --><is-a></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script src="/runtime.b15aa7186c559b492b7d.js"></script><script src="/polyfills.824ff89b5f3ca4543a31.js"></script><script src="/main.03652fc423a687c817e8.js"></script><!-- hexo injector body_end end --></body>
+</html>

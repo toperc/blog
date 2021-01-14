@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>iXinRun</title>
+  
+  
+  <link href="https://blog.ixin.run/atom.xml" rel="self"/>
+  
+  <link href="https://blog.ixin.run/"/>
+  <updated>2021-01-14T08:08:54.917Z</updated>
+  <id>https://blog.ixin.run/</id>
+  
+  <author>
+    <name>i猩人</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown基本使用方法</title>
+    <link href="https://blog.ixin.run/post/1610311108/"/>
+    <id>https://blog.ixin.run/post/1610311108/</id>
+    <published>2021-01-10T20:37:54.000Z</published>
+    <updated>2021-01-14T08:08:54.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最初接触Markdown编辑法是从上大学开始的，至今有八九年了，特点就是简洁、简洁还是简洁，这里是我个人总结的一些Markdown基本使用技巧，共日常参考。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术总结" scheme="https://blog.ixin.run/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="markdown" scheme="https://blog.ixin.run/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>带你玩转Hexo</title>
+    <link href="https://blog.ixin.run/post/1610308156/"/>
+    <id>https://blog.ixin.run/post/1610308156/</id>
+    <published>2021-01-10T16:28:31.000Z</published>
+    <updated>2021-01-14T08:08:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我的博客用的是Hexo框架，有一段时间没有倒腾它了，最近浏览&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot;&gt;官网&lt;/a&gt;发现hexo版本已经到5.3.0了，我自己的还是4.0时代，愁了一下5.0版本的升级日志是各种牛逼，我也看不懂，是时候升级一波体验一下，顺便总结一下自己对hexo的玩法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DevOps" scheme="https://blog.ixin.run/categories/DevOps/"/>
+    
+    
+    <category term="DevOps" scheme="https://blog.ixin.run/tags/DevOps/"/>
+    
+    <category term="Hexo" scheme="https://blog.ixin.run/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>各地隔离政策查询</title>
+    <link href="https://blog.ixin.run/post/1/"/>
+    <id>https://blog.ixin.run/post/1/</id>
+    <published>2021-01-10T14:35:51.000Z</published>
+    <updated>2021-01-14T08:08:54.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;快过年了，激动的心，颤抖的手，马上抢票有木有！然而最近新冠又有反弹，游子归乡的心又怕是悬在半空了。这里分享一个各地隔离政策查询的工具，方便各位仁兄时刻做好准备，跟着红旗走，不添乱，不盲从，平安过年保护全家。see…&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>WebView高度自适应方案探究</title>
+    <link href="https://blog.ixin.run/post/1586879992/"/>
+    <id>https://blog.ixin.run/post/1586879992/</id>
+    <published>2020-04-14T15:59:52.000Z</published>
+    <updated>2021-01-14T08:08:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Android项目开发中针对webview避免不了混合开发模式，可Android上的webview又很不争气，几乎每个Android版本都有webvie的改动，在国内这种鱼龙混杂环境下出乎意料的问题又很多，这次就谈谈webview高度自适应的问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="WebView" scheme="https://blog.ixin.run/tags/WebView/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更好的人生一定要学会做减法</title>
+    <link href="https://blog.ixin.run/post/1586535410/"/>
+    <id>https://blog.ixin.run/post/1586535410/</id>
+    <published>2020-04-10T16:16:50.000Z</published>
+    <updated>2021-01-14T08:08:54.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近看到一篇人民日报推的一碗鸡汤——&lt;a href=&quot;https://mp.weixin.qq.com/s/T50i62CuYjNexnn0BCPp6Q&quot; target=&quot;_blank&quot;&gt;《更好的人生，要学会做减法》&lt;/a&gt;，我平时很少看这类鸡汤文章，但是这篇却无意触动了我，没有讲述故事，短小的一篇，仅仅列了几点，但是这几点却是我在这将近一年中感触最深的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;学会欲望极简&lt;/li&gt;
+&lt;li&gt;学会物质极简&lt;/li&gt;
+&lt;li&gt;学会社交极简&lt;/li&gt;
+&lt;li&gt;学会信息极简&lt;/li&gt;
+&lt;li&gt;学会心事极简&lt;/li&gt;
+&lt;li&gt;学会生活极简&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;越来越发现自己对生活的细小琐事记性不好，这里做一个笔录，也是为了提醒自己在日后的这么长时间里认真生活。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://blog.ixin.run/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="生活" scheme="https://blog.ixin.run/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发View滑动冲突处理</title>
+    <link href="https://blog.ixin.run/post/1586534751/"/>
+    <id>https://blog.ixin.run/post/1586534751/</id>
+    <published>2020-04-10T16:05:51.000Z</published>
+    <updated>2021-01-14T08:08:54.897Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近在重构一个老项目，遇到ScrollView嵌套WebView的场景，因为WebView加载的网页并不是自适应，所以导致在滑动网页的时候异常卡顿，很明显是滑动冲突了，解决方式也很常规，针对滑动冲突这里顺便做笔记吧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="View" scheme="https://blog.ixin.run/tags/View/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发约束布局ConstraintLayout学习总结</title>
+    <link href="https://blog.ixin.run/post/1584977277/"/>
+    <id>https://blog.ixin.run/post/1584977277/</id>
+    <published>2020-03-23T15:27:57.000Z</published>
+    <updated>2021-01-14T08:08:54.897Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;小伙伴都知道Android开发有常用的五大布局：LinearLayout、RelateLayout、FrameLayout、AbsolutLayout和TableLayout，今天再总结一个比较牛掰的一个布局——ConstraintLayout，完全可以代替LinearLayout和RelateLayout，具体为什么要使用他和怎么用是接下来需要说的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="布局" scheme="https://blog.ixin.run/tags/%E5%B8%83%E5%B1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>View手势GestureDetector使用</title>
+    <link href="https://blog.ixin.run/post/1584803165/"/>
+    <id>https://blog.ixin.run/post/1584803165/</id>
+    <published>2020-03-21T15:06:05.000Z</published>
+    <updated>2021-01-14T08:08:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;开发同学都知道自定义view的时候可以重写onTouch()方法，进而扩展按下、移动、松开这三个函数，这也是常用的形式。但是这个方法太过简单，如果需要处理一些复杂的手势，用这个接口就会很麻烦。Android其实有一个手势库——GestureDetector，已经为我们封装了一些常用的手势方法，接下来就总结一下GestureDetector的使用和总结。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="View" scheme="https://blog.ixin.run/tags/View/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>健康小记</title>
+    <link href="https://blog.ixin.run/post/1584787534/"/>
+    <id>https://blog.ixin.run/post/1584787534/</id>
+    <published>2020-03-21T10:45:34.000Z</published>
+    <updated>2021-01-14T08:08:54.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;父亲爱饮酒，爱熬夜，前段时间进了ICU，一时间颇为伤心。人在江湖，面向生活和工作，迫不得已，但也要时刻注意自己的身体。身体是你最大的资本和银行卡，时刻要把握一个度，不可本末倒置。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://blog.ixin.run/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="健康" scheme="https://blog.ixin.run/tags/%E5%81%A5%E5%BA%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次BuildConfig.DEBUG不准确导致的Bug</title>
+    <link href="https://blog.ixin.run/post/1576077775/"/>
+    <id>https://blog.ixin.run/post/1576077775/</id>
+    <published>2019-12-11T15:21:16.000Z</published>
+    <updated>2021-01-14T08:08:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Android开发过程中通常我们区分debug和release的相关配置都会采用&lt;code&gt;BuildConfig.DEBUG&lt;/code&gt;来进行判断，殊不知这个东西弄不好却是一个坑，刚好在最近的开发过程中遇到。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发混淆的那些事</title>
+    <link href="https://blog.ixin.run/post/1576076353/"/>
+    <id>https://blog.ixin.run/post/1576076353/</id>
+    <published>2019-12-11T14:57:42.000Z</published>
+    <updated>2021-01-14T08:08:54.897Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;混淆想必大家都不陌生，android上用的这一套混淆规则和java混淆几乎是一样的。为何需要混淆呢？简单的说，就是将原本正常的项目文件，对其类，方法，字段，重新命名,a,b,c,d,e,f…之类的字母，达到混淆代码的目的，这样反编译出来，结构乱糟糟的，给反编译者制造一些代码阅读的麻烦。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="混淆" scheme="https://blog.ixin.run/tags/%E6%B7%B7%E6%B7%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git分支管理最佳实践</title>
+    <link href="https://blog.ixin.run/post/1574177460/"/>
+    <id>https://blog.ixin.run/post/1574177460/</id>
+    <published>2019-11-19T15:31:00.000Z</published>
+    <updated>2021-01-14T08:08:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Git是什么，这里就不再多说了，本篇就目前主流公司普遍流行的git分支管理方式做一个简单的总结，另外在开发过程中代码规范提交也是很重要的，本文也会做一个说明。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DevOps" scheme="https://blog.ixin.run/categories/DevOps/"/>
+    
+    
+    <category term="Git" scheme="https://blog.ixin.run/tags/Git/"/>
+    
+    <category term="DevOps" scheme="https://blog.ixin.run/tags/DevOps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LRU算法基本思路</title>
+    <link href="https://blog.ixin.run/post/1571663304/"/>
+    <id>https://blog.ixin.run/post/1571663304/</id>
+    <published>2019-10-21T12:54:17.000Z</published>
+    <updated>2021-01-14T08:08:54.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;LRU（Least Recently Used），即最近最少使用淘汰法，它是按照一个非常注明的计算机操作系统基础理论得来的：&lt;strong&gt;最近使用的页面数据会在未来一段时期内仍然被使用,已经很久没有使用的页面很有可能在未来较长的一段时间内仍然不会被使用&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;本文就带着大家徒手撸一个最基本的LRU算法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="数据结构和算法" scheme="https://blog.ixin.run/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="https://blog.ixin.run/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android媒体库你了解多少</title>
+    <link href="https://blog.ixin.run/post/1571496871/"/>
+    <id>https://blog.ixin.run/post/1571496871/</id>
+    <published>2019-10-19T14:15:26.000Z</published>
+    <updated>2021-01-14T08:08:54.887Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Android系统中有一个媒体库，这个大家应该有所了解，平时在开发过程中如果不涉及媒体文件（图片、音频、视频）这块则很少接触到。有些时候我们在本地添加一张图片，但是在相册中却无法搜索到，这里主要原因就是没有通知系统媒体库刷新导致的。本篇我们就探讨下Android上媒体库的这些事。&lt;/p&gt;
+&lt;p&gt;为什么通知媒体库后，媒体库里就能找到了呢？兴许你还会遇到一种情况，就是明明相册里可以发现这张图片，可是到图片的具体路径下却找不到这张图片。到此应该会猜测到是不是媒体库和本地相册都持有一份媒体文件信息呢？基本上猜到了八九不离十了，其实媒体库就是一个数据库，专门管理媒体文件的相关信息，例如图片信息，缩略图等。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="媒体库" scheme="https://blog.ixin.run/tags/%E5%AA%92%E4%BD%93%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java垃圾回收（三）GC算法</title>
+    <link href="https://blog.ixin.run/post/1569143270/"/>
+    <id>https://blog.ixin.run/post/1569143270/</id>
+    <published>2019-09-22T09:07:50.000Z</published>
+    <updated>2021-01-14T08:08:54.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在前面的一篇已经讲过GC的过程了，本篇我们就讲一讲在GC过程中所伴随的一些回收算法，Java中标记垃圾的算法主要有两种，引用计数法和可达性分析算法，其中引用计数法由于某些缺陷而不被java所采用的，现阶段所用的各种回收算法都是在可达性分析算法基础上延伸出来的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="JVM" scheme="https://blog.ixin.run/tags/JVM/"/>
+    
+    <category term="垃圾回收" scheme="https://blog.ixin.run/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java垃圾回收（二）GC过程</title>
+    <link href="https://blog.ixin.run/post/1569139670/"/>
+    <id>https://blog.ixin.run/post/1569139670/</id>
+    <published>2019-09-22T08:07:50.000Z</published>
+    <updated>2021-01-14T08:08:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;什么样的对象才是垃圾？对于Java对象来讲，如果说这个对象没有被其他对象所引用该对象就是无用的，此对象就被称为垃圾，其占用的内存也就要被销毁。本篇我们就讲一讲GC（Garbage Collection）的具体过程。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="JVM" scheme="https://blog.ixin.run/tags/JVM/"/>
+    
+    <category term="垃圾回收" scheme="https://blog.ixin.run/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java垃圾回收（一）四种对象引用类型</title>
+    <link href="https://blog.ixin.run/post/1569136070/"/>
+    <id>https://blog.ixin.run/post/1569136070/</id>
+    <published>2019-09-22T07:07:50.000Z</published>
+    <updated>2021-01-14T08:08:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;垃圾收集GC（Garbage Collection）是Java语言的核心技术之一， 在Java中，程序员不需要去关心内存动态分配和垃圾回收的问题，这一切都交给了JVM来处理。本篇我们先弄清楚在开发过程中如何使用对象引用来实现合适时机的垃圾回收，下篇再由浅入深谈谈jvm底层是如何垃圾回收的。&lt;/p&gt;
+&lt;p&gt;在JDK1.2之后，Java对引用的概念进行了扩充，将引用分为强引用(Strong Reference)，软引用(Soft Reference)，弱引用(Weak Reference)，虚引用(Phantom Reference)四种，这四种引用强度依赖逐渐减弱。理解这四种对象引用方式也是对java垃圾回收机制的基本认识。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="JVM" scheme="https://blog.ixin.run/tags/JVM/"/>
+    
+    <category term="垃圾回收" scheme="https://blog.ixin.run/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM（一）内存分配</title>
+    <link href="https://blog.ixin.run/post/1568979766/"/>
+    <id>https://blog.ixin.run/post/1568979766/</id>
+    <published>2019-09-20T11:42:46.000Z</published>
+    <updated>2021-01-14T08:08:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Java内存分配无论是处于正常开发计算过程还是绞尽脑汁思考内存回收都需要深入理解的，本文所属范畴是JVM，不应该先来个类加载和运行机制吗，为什么先研究内存分配呢？老实说因为这块很接近我们的开发，越接近后边的深入越容易理解。在了解JVM内存分配之前我们先简单熟悉一下Java HotSpot VM，因为我们经常挂在嘴边的JVM目前就是这家伙。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="JVM" scheme="https://blog.ixin.run/tags/JVM/"/>
+    
+    <category term="内存分配" scheme="https://blog.ixin.run/tags/%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>位运算的那些事（三）位掩码</title>
+    <link href="https://blog.ixin.run/post/1567003105/"/>
+    <id>https://blog.ixin.run/post/1567003105/</id>
+    <published>2019-08-28T14:34:40.000Z</published>
+    <updated>2021-01-14T08:08:54.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;前两篇我重点针对位运算基础以及运算过程详细的进行了讲解说明，相信看过的小伙伴也都很明了了。那么基础有了，也知道运算过程了，那我们常见的战场在哪里呢？这就像排兵布阵一样，只阅读兵法，而没有实践和模拟，只能算纸上谈兵了。本篇就拉开帷幕直面开发中这个最常见的战场——位掩码（BitMask）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="计算机基础" scheme="https://blog.ixin.run/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="二进制" scheme="https://blog.ixin.run/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/"/>
+    
+    <category term="位运算" scheme="https://blog.ixin.run/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>位运算的那些事（二）如何位运算</title>
+    <link href="https://blog.ixin.run/post/1566743147/"/>
+    <id>https://blog.ixin.run/post/1566743147/</id>
+    <published>2019-08-25T14:18:59.000Z</published>
+    <updated>2021-01-14T08:08:54.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;上一篇为了讲位运算不得已将二进制机器码与真值之间的关系系统的解释了一通，本篇我们就根据这些基础将二进制位运算几个常用的运算符运算规则理一理，相信本文之后你就明白了这一个过程。&lt;/p&gt;
+&lt;p&gt;上篇我也提到位运算符主要针对二进制，它主要包括：“与（&amp;amp;）”、“或（|）”、“非（~）”、“异或（^）”，当然还有移位运算（左移、右移，无符号左移），这在开发过程中也是很常见的，下边我就以这两部分来说。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="计算机基础" scheme="https://blog.ixin.run/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="二进制" scheme="https://blog.ixin.run/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/"/>
+    
+    <category term="位运算" scheme="https://blog.ixin.run/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+    
+  </entry>
+  
+</feed>

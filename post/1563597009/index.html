@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>对象拷贝性能对比分析 - iXinRun</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://blog.ixin.run/post/1563597009/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="对象拷贝可分为浅拷贝和深拷贝，在开发过程中深拷贝不是随处可见，大部分是引用的赋值，也即是内存地址的引用。如果简单的类似Student studen1 &#x3D; student0这样便认为复制了一份，这就大错特错了，有些时候你会莫名的发现studen1没有任何操作里面的属性却发生变化了，不用说一定是student0在某个时候被修改了，因为这两个对象引用的是一个地址的内容。开发过程中，因为嵌套过深，对象中转">
+<meta property="og:type" content="website">
+<meta property="og:title" content="对象拷贝性能对比分析">
+<meta property="og:url" content="https://blog.ixin.run/post/1563597009/index.html">
+<meta property="og:site_name" content="iXinRun">
+<meta property="og:description" content="对象拷贝可分为浅拷贝和深拷贝，在开发过程中深拷贝不是随处可见，大部分是引用的赋值，也即是内存地址的引用。如果简单的类似Student studen1 &#x3D; student0这样便认为复制了一份，这就大错特错了，有些时候你会莫名的发现studen1没有任何操作里面的属性却发生变化了，不用说一定是student0在某个时候被修改了，因为这两个对象引用的是一个地址的内容。开发过程中，因为嵌套过深，对象中转">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.ixin.run/post/1563597009/avatar.jpg">
+<meta property="article:published_time" content="2019-07-20T04:30:09.000Z">
+<meta property="article:modified_time" content="2021-01-14T08:08:54.907Z">
+<meta property="article:author" content="i猩人">
+<meta property="article:tag" content="Android基础">
+<meta property="article:tag" content="Java基础">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.ixin.run/post/1563597009/avatar.jpg">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"url":"https://blog.ixin.run","image":"https://blog.ixin.run/avatar.jpg","description":"","author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"}},{"@context":"http://schema.org","@type":"Article","articleSection":"Android","url":"https://blog.ixin.run/post/1563597009/","headline":"对象拷贝性能对比分析","image":"https://blog.ixin.run/avatar.jpg","datePublished":"2019-07-20T04:30:09.000Z","dateModified":"2021-01-14T08:08:54.907Z","keywords":"Android基础,Java基础","description":"对象拷贝可分为浅拷贝和深拷贝，在开发过程中深拷贝不是随处可见，大部分是引用的赋值，也即是内存地址的引用。如果简单的类似Student studen1 = student0这样便认为复制了一份，这就大错特错了，有些时候你会莫名的发现studen1没有任何操作里面的属性却发生变化了，不用说一定是student0在某个时候被修改了，因为这两个对象引用的是一个地址的内容。开发过程中，因为嵌套过深，对象中转过多，着实需要小心。\n真正的拷贝是完全复制一份，从而与原对象隔离开，保证了原对象的定格，从而在操作过程中不用担心原对象被修改，必要时可“一键还原”。","publisher":{"@type":"Organization","name":"iXinRun","logo":{"@type":"ImageObject","url":"https://blog.ixin.run/avatar.jpg"}},"author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.ixin.run/post/1563597009/"}}]</script><link rel="alternate" type="application/atom+xml" title="iXinRun" href="/atom.xml">
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-112498005-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-112498005-1');</script>
+<!-- hexo injector head_end start --><link href="//fonts.googleapis.com/css?family=Noto+Sans|Gloria+Hallelujah|Faster+One|Montserrat|Inconsolata" rel="stylesheet"><link href="/styles.43478ea7e28ed563c48b.css" rel="stylesheet">
+<script src="/config.a18dc2c01a10982f2f63.js"></script>
+
+<link rel="stylesheet" href="/theme.a45ffdc9cc39f7df5e09.css" is="theme">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.3.0"></head>
+<body lang="zh-Hans"><!-- hexo injector body_begin start --><is-a></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script src="/runtime.b15aa7186c559b492b7d.js"></script><script src="/polyfills.824ff89b5f3ca4543a31.js"></script><script src="/main.03652fc423a687c817e8.js"></script><!-- hexo injector body_end end --></body>
+</html>
