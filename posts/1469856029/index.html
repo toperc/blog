@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>Android开发之进程间通信AIDL的探究和学习 - i猩人 - 一个程序员的故事，专注移动互联网</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://blog.ixin.run/posts/1469856029/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="AIDL（Android Interface Definition Language），顾名思义就是android接口定义语言，用于生成可以在Android设备上两个进程之间进行进程间通信（interprocess communication, IPC）的代码。 进程间通信场景 我们知道android应用程序语言的许多思想来自java，而且又基于linux内核，android系统的中每一个应用程序">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Android开发之进程间通信AIDL的探究和学习">
+<meta property="og:url" content="https://blog.ixin.run/posts/1469856029/index.html">
+<meta property="og:site_name" content="i猩人 - 一个程序员的故事，专注移动互联网">
+<meta property="og:description" content="AIDL（Android Interface Definition Language），顾名思义就是android接口定义语言，用于生成可以在Android设备上两个进程之间进行进程间通信（interprocess communication, IPC）的代码。 进程间通信场景 我们知道android应用程序语言的许多思想来自java，而且又基于linux内核，android系统的中每一个应用程序">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.ixin.run/posts/1469856029/avatar.jpg">
+<meta property="article:published_time" content="2016-07-30T05:20:29.000Z">
+<meta property="article:modified_time" content="2021-01-29T12:51:44.636Z">
+<meta property="article:author" content="i猩人">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.ixin.run/posts/1469856029/avatar.jpg">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"url":"https://blog.ixin.run","image":"https://blog.ixin.run/avatar.jpg","description":"","author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"}},{"@context":"http://schema.org","@type":"Article","articleSection":"","url":"https://blog.ixin.run/posts/1469856029/","headline":"Android开发之进程间通信AIDL的探究和学习","image":"https://blog.ixin.run/avatar.jpg","datePublished":"2016-07-30T05:20:29.000Z","dateModified":"2021-01-29T12:51:44.636Z","keywords":"","description":"","publisher":{"@type":"Organization","name":"i猩人 - 一个程序员的故事，专注移动互联网","logo":{"@type":"ImageObject","url":"https://blog.ixin.run/avatar.jpg"}},"author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.ixin.run/posts/1469856029/"}}]</script><link rel="alternate" type="application/atom+xml" title="i猩人 - 一个程序员的故事，专注移动互联网" href="/atom.xml">
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-112498005-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-112498005-1');</script>
+<!-- hexo injector head_end start --><link href="//fonts.googleapis.com/css?family=Noto+Sans|ZCOOL+KuaiLe|Faster+One|Montserrat|Inconsolata" rel="stylesheet"><link href="/styles.43478ea7e28ed563c48b.css" rel="stylesheet">
+<script src="/config.d800c5dde536d5d4db76.js"></script>
+
+<link rel="stylesheet" href="/theme.0784bef91ebb8ae6f6dc.css" is="theme">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.3.0"></head>
+<body lang="zh-Hans"><!-- hexo injector body_begin start --><is-a></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script src="/runtime.b15aa7186c559b492b7d.js"></script><script src="/polyfills.824ff89b5f3ca4543a31.js"></script><script src="/main.03652fc423a687c817e8.js"></script><!-- hexo injector body_end end --></body>
+</html>

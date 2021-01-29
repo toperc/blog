@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>Android开发之Fragment知识总结 - i猩人 - 一个程序员的故事，专注移动互联网</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://blog.ixin.run/posts/1555602958/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="最近华为的新出的折叠手机（mate X）甚是火爆，甚至欧美国外发烧网友都为之疯狂，折起来是一步双面屏手机，展开有瞬间编程一个平板，最重要的特色就是分屏，可以左边看电视右边聊天。手机从塞班时代百花争艳到乔布斯的方块范畴，再到现在的不到不小的16:9，然后就是华为、三星的折叠系列，不出意料未来的手机又会到一个个性化高峰。这些对于我们开发者又是一个里程碑的挑战，以前我们只需要维护好一个页面，现在为了实行">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Android开发之Fragment知识总结">
+<meta property="og:url" content="https://blog.ixin.run/posts/1555602958/index.html">
+<meta property="og:site_name" content="i猩人 - 一个程序员的故事，专注移动互联网">
+<meta property="og:description" content="最近华为的新出的折叠手机（mate X）甚是火爆，甚至欧美国外发烧网友都为之疯狂，折起来是一步双面屏手机，展开有瞬间编程一个平板，最重要的特色就是分屏，可以左边看电视右边聊天。手机从塞班时代百花争艳到乔布斯的方块范畴，再到现在的不到不小的16:9，然后就是华为、三星的折叠系列，不出意料未来的手机又会到一个个性化高峰。这些对于我们开发者又是一个里程碑的挑战，以前我们只需要维护好一个页面，现在为了实行">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555613909401&di=6752f902ac9ad9912b724457339747e7&imgtype=0&src=http%3A%2F%2Fnowre.com%2Fwp-content%2Fuploads%2F2019%2F02%2F000.jpg">
+<meta property="article:published_time" content="2019-04-18T15:55:14.000Z">
+<meta property="article:modified_time" content="2021-01-29T12:51:44.631Z">
+<meta property="article:author" content="i猩人">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555613909401&di=6752f902ac9ad9912b724457339747e7&imgtype=0&src=http%3A%2F%2Fnowre.com%2Fwp-content%2Fuploads%2F2019%2F02%2F000.jpg">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"url":"https://blog.ixin.run","image":"https://blog.ixin.run/avatar.jpg","description":"","author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"}},{"@context":"http://schema.org","@type":"Article","articleSection":"Android","url":"https://blog.ixin.run/posts/1555602958/","headline":"Android开发之Fragment知识总结","image":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555613909401&di=6752f902ac9ad9912b724457339747e7&imgtype=0&src=http%3A%2F%2Fnowre.com%2Fwp-content%2Fuploads%2F2019%2F02%2F000.jpg","datePublished":"2019-04-18T15:55:14.000Z","dateModified":"2021-01-29T12:51:44.631Z","keywords":"","description":"最近华为的新出的折叠手机（mate X）甚是火爆，甚至欧美国外发烧网友都为之疯狂，折起来是一步双面屏手机，展开有瞬间编程一个平板，最重要的特色就是分屏，可以左边看电视右边聊天。手机从塞班时代百花争艳到乔布斯的方块范畴，再到现在的不到不小的16:9，然后就是华为、三星的折叠系列，不出意料未来的手机又会到一个个性化高峰。这些对于我们开发者又是一个里程碑的挑战，以前我们只需要维护好一个页面，现在为了实行多样化需求，我们要尽可能在单个页面上做更多的碎片处理。","publisher":{"@type":"Organization","name":"i猩人 - 一个程序员的故事，专注移动互联网","logo":{"@type":"ImageObject","url":"https://blog.ixin.run/avatar.jpg"}},"author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.ixin.run/posts/1555602958/"},"thumbnailUrl":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555613909401&di=6752f902ac9ad9912b724457339747e7&imgtype=0&src=http%3A%2F%2Fnowre.com%2Fwp-content%2Fuploads%2F2019%2F02%2F000.jpg"}]</script><link rel="alternate" type="application/atom+xml" title="i猩人 - 一个程序员的故事，专注移动互联网" href="/atom.xml">
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-112498005-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-112498005-1');</script>
+<!-- hexo injector head_end start --><link href="//fonts.googleapis.com/css?family=Noto+Sans|ZCOOL+KuaiLe|Faster+One|Montserrat|Inconsolata" rel="stylesheet"><link href="/styles.43478ea7e28ed563c48b.css" rel="stylesheet">
+<script src="/config.d800c5dde536d5d4db76.js"></script>
+
+<link rel="stylesheet" href="/theme.0784bef91ebb8ae6f6dc.css" is="theme">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.3.0"></head>
+<body lang="zh-Hans"><!-- hexo injector body_begin start --><is-a></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script src="/runtime.b15aa7186c559b492b7d.js"></script><script src="/polyfills.824ff89b5f3ca4543a31.js"></script><script src="/main.03652fc423a687c817e8.js"></script><!-- hexo injector body_end end --></body>
+</html>
