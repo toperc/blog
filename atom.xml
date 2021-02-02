@@ -6,7 +6,7 @@
   <link href="https://blog.ixin.run/atom.xml" rel="self"/>
   
   <link href="https://blog.ixin.run/"/>
-  <updated>2021-01-29T12:51:44.653Z</updated>
+  <updated>2021-02-01T11:34:21.320Z</updated>
   <id>https://blog.ixin.run/</id>
   
   <author>
@@ -17,11 +17,100 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>DO AS ONE WISHES</title>
+    <link href="https://blog.ixin.run/posts/0/"/>
+    <id>https://blog.ixin.run/posts/0/</id>
+    <published>2098-12-31T16:00:00.000Z</published>
+    <updated>2021-02-01T11:34:21.320Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;一个合格的程序员都有自己的风格：执着、追求、向上、完美主义、无所畏惧、高傲但不自大、也有风骚也有爱、狼性编程并不只是为了工作…终极梦想就是随心所欲，凤凰涅槃。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;在其位谋其职，在我还没有想到下条路的时候或者现阶段</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Jenkins自动化构建（一）玩转Android项目自动化打包</title>
+    <link href="https://blog.ixin.run/posts/1612097829/"/>
+    <id>https://blog.ixin.run/posts/1612097829/</id>
+    <published>2021-01-31T12:56:15.000Z</published>
+    <updated>2021-02-02T12:27:34.089Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;早些年Eclipse时代Android打包采用的&lt;code&gt;ant&lt;/code&gt;，现在AndroidStudio时代采用的&lt;code&gt;Gradle&lt;/code&gt;，目前的开发模式都是采用敏捷开发，如果仍采用手动打包给QA提测未免太耽误事了，目前众多公司采用的是自动化打包策略+自动化测试，本文是Jenkins自动化构建的第一篇，玩转Android项目的自动化打包，来自早些时候个人整理的有道云笔记，不对之处请指出。前方高能，巨图众多！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DevOps" scheme="https://blog.ixin.run/categories/DevOps/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+    <category term="DevOps" scheme="https://blog.ixin.run/tags/DevOps/"/>
+    
+    <category term="Jenkins" scheme="https://blog.ixin.run/tags/Jenkins/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub Pages你了解多少</title>
+    <link href="https://blog.ixin.run/posts/1612084454/"/>
+    <id>https://blog.ixin.run/posts/1612084454/</id>
+    <published>2021-01-31T09:14:14.000Z</published>
+    <updated>2021-02-01T11:34:21.322Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;自建Blog的小朋友估计都知道&lt;code&gt;GitHub Pages&lt;/code&gt;吧，因为据我了解程序员第一次自建博客都选的是GitHub，因为可以撸免费的空间、撸免费的GitHub专属域名，还可以提高一些GitHub的活跃度，毕竟这里才是我们真男人的天堂，哈哈，这些羊毛足够暖和一阵子了。但是我发现大部分小朋友的站点仅仅停留在&lt;code&gt;xxx.github.io&lt;/code&gt;这个链接下，本篇文章我就带你简单了解一下&lt;code&gt;GitHub Pages&lt;/code&gt;多余的认识，同样是来自早期的一篇个人笔记。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DevOps" scheme="https://blog.ixin.run/categories/DevOps/"/>
+    
+    
+    <category term="DevOps" scheme="https://blog.ixin.run/tags/DevOps/"/>
+    
+    <category term="GitHub" scheme="https://blog.ixin.run/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android组件化全面掌握【转载】</title>
+    <link href="https://blog.ixin.run/posts/1612031065/"/>
+    <id>https://blog.ixin.run/posts/1612031065/</id>
+    <published>2021-01-30T18:23:07.000Z</published>
+    <updated>2021-02-01T11:34:21.321Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;门店项目从我来公司的MVC都不是的模式到如今的组件化实现，服务着全国4千多家门店使用，中间开发过程也是摸索着不断学习不断调优，一直想写一篇项目重构到组件化的过程，前天偶然看到&lt;code&gt;鸿洋&lt;/code&gt;大佬公众号转载的由&lt;code&gt;胡飞洋&lt;/code&gt;写的一篇《“终于懂了” 系列：Android组件化，全面掌握！》这篇文章，与门店重构过程不谋而合，这里我就做一个拿来主义转载一下，记录一下相关的知识点。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+    <category term="组件化" scheme="https://blog.ixin.run/tags/%E7%BB%84%E4%BB%B6%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Android开发弹性布局FlexboxLayout知识总结</title>
     <link href="https://blog.ixin.run/posts/1611751645/"/>
     <id>https://blog.ixin.run/posts/1611751645/</id>
     <published>2021-01-27T12:47:25.000Z</published>
-    <updated>2021-01-29T12:51:44.653Z</updated>
+    <updated>2021-02-01T11:34:21.321Z</updated>
     
     
     <summary type="html">&lt;p&gt;今天分享一下弹性布局FlexboxLayout的使用总结，又是一篇个人有道云笔记转移系列。早些年我们实现一个换行的标签云、实现一个不规则的九宫格、实现一个不规整瀑布流等等这些“嘿嘿嘿”设计总是要思索半天，FlexboxLayout的出现面对这些问题将为你节省几亿个脑细胞不在话下。我第一次接触这个布局方式还是从早前一个前端写H5的小哥嘴里得到的，我顺便举一反三搜了一下发现我们Android上也有，还是google官方出品，看来知识都是相通的。好了，废话不多说，直接淦！&lt;/p&gt;</summary>
@@ -354,83 +443,6 @@
     
     
     <category term="健康" scheme="https://blog.ixin.run/tags/%E5%81%A5%E5%BA%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记一次BuildConfig.DEBUG不准确导致的Bug</title>
-    <link href="https://blog.ixin.run/posts/1576077775/"/>
-    <id>https://blog.ixin.run/posts/1576077775/</id>
-    <published>2019-12-11T15:21:16.000Z</published>
-    <updated>2021-01-29T12:51:44.651Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Android开发过程中通常我们区分debug和release的相关配置都会采用&lt;code&gt;BuildConfig.DEBUG&lt;/code&gt;来进行判断，殊不知这个东西弄不好却是一个坑，刚好在最近的开发过程中遇到。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Android开发混淆的那些事</title>
-    <link href="https://blog.ixin.run/posts/1576076353/"/>
-    <id>https://blog.ixin.run/posts/1576076353/</id>
-    <published>2019-12-11T14:57:42.000Z</published>
-    <updated>2021-01-29T12:51:44.638Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;混淆想必大家都不陌生，android上用的这一套混淆规则和java混淆几乎是一样的。为何需要混淆呢？简单的说，就是将原本正常的项目文件，对其类，方法，字段，重新命名,a,b,c,d,e,f…之类的字母，达到混淆代码的目的，这样反编译出来，结构乱糟糟的，给反编译者制造一些代码阅读的麻烦。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-    <category term="混淆" scheme="https://blog.ixin.run/tags/%E6%B7%B7%E6%B7%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git分支管理最佳实践</title>
-    <link href="https://blog.ixin.run/posts/1574177460/"/>
-    <id>https://blog.ixin.run/posts/1574177460/</id>
-    <published>2019-11-19T15:31:00.000Z</published>
-    <updated>2021-01-29T12:51:44.654Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Git是什么，这里就不再多说了，本篇就目前主流公司普遍流行的git分支管理方式做一个简单的总结，另外在开发过程中代码规范提交也是很重要的，本文也会做一个说明。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="DevOps" scheme="https://blog.ixin.run/categories/DevOps/"/>
-    
-    
-    <category term="DevOps" scheme="https://blog.ixin.run/tags/DevOps/"/>
-    
-    <category term="Git" scheme="https://blog.ixin.run/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LRU算法基本思路</title>
-    <link href="https://blog.ixin.run/posts/1571663304/"/>
-    <id>https://blog.ixin.run/posts/1571663304/</id>
-    <published>2019-10-21T12:54:17.000Z</published>
-    <updated>2021-01-29T12:51:44.667Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;LRU（Least Recently Used），即最近最少使用淘汰法，它是按照一个非常注明的计算机操作系统基础理论得来的：&lt;strong&gt;最近使用的页面数据会在未来一段时期内仍然被使用,已经很久没有使用的页面很有可能在未来较长的一段时间内仍然不会被使用&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;本文就带着大家徒手撸一个最基本的LRU算法。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="数据结构和算法" scheme="https://blog.ixin.run/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="算法" scheme="https://blog.ixin.run/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
