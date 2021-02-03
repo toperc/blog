@@ -301,6 +301,28 @@
   </entry>
   
   <entry>
+    <title>针对极光推送送达率的探究</title>
+    <link href="https://blog.ixin.run/posts/1587547661/"/>
+    <id>https://blog.ixin.run/posts/1587547661/</id>
+    <published>2020-04-22T09:27:41.000Z</published>
+    <updated>2021-02-03T02:09:08.597Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;前段时间内部一个应用对接了极光推送，开发人当然是我咯，根据多年对极光的认可这块对接还是很有信心的。毕竟是内部系统，送达率要求还是很高的，业务实时性需要，所以产品这块非常看重送达率，我对他说极光的实时送达率很客观的，有实验室数据，但是他还是希望我帮他提供一个可靠的数据，下边是我对实时送达率的一个分析。&lt;/p&gt;
+&lt;p&gt;当然，针对推送作为开发的我更关注整体送达率（准确送达率），文中也有提到，最简单可靠的方式就是提高app的存活率。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+    <category term="极光推送" scheme="https://blog.ixin.run/tags/%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81/"/>
+    
+  </entry>
+  
+  <entry>
     <title>WebView高度自适应方案探究</title>
     <link href="https://blog.ixin.run/posts/1586879992/"/>
     <id>https://blog.ixin.run/posts/1586879992/</id>
@@ -424,25 +446,6 @@
     
     
     <category term="View" scheme="https://blog.ixin.run/tags/View/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>健康小记</title>
-    <link href="https://blog.ixin.run/posts/1584787534/"/>
-    <id>https://blog.ixin.run/posts/1584787534/</id>
-    <published>2020-03-21T10:45:34.000Z</published>
-    <updated>2021-01-29T12:51:44.669Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;父亲爱饮酒，爱熬夜，前段时间进了ICU，一时间颇为伤心。人在江湖，面向生活和工作，迫不得已，但也要时刻注意自己的身体。身体是你最大的资本和银行卡，时刻要把握一个度，不可本末倒置。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="生活" scheme="https://blog.ixin.run/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="健康" scheme="https://blog.ixin.run/tags/%E5%81%A5%E5%BA%B7/"/>
     
   </entry>
   

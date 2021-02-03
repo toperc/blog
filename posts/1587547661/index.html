@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>针对极光推送送达率的探究 - i猩人 - 一个程序员的故事，专注移动互联网</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://blog.ixin.run/posts/1587547661/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="前段时间内部一个应用对接了极光推送，开发人当然是我咯，根据多年对极光的认可这块对接还是很有信心的。毕竟是内部系统，送达率要求还是很高的，业务实时性需要，所以产品这块非常看重送达率，我对他说极光的实时送达率很客观的，有实验室数据，但是他还是希望我帮他提供一个可靠的数据，下边是我对实时送达率的一个分析。 当然，针对推送作为开发的我更关注整体送达率（准确送达率），文中也有提到，最简单可靠的方式就是提高a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="针对极光推送送达率的探究">
+<meta property="og:url" content="https://blog.ixin.run/posts/1587547661/index.html">
+<meta property="og:site_name" content="i猩人 - 一个程序员的故事，专注移动互联网">
+<meta property="og:description" content="前段时间内部一个应用对接了极光推送，开发人当然是我咯，根据多年对极光的认可这块对接还是很有信心的。毕竟是内部系统，送达率要求还是很高的，业务实时性需要，所以产品这块非常看重送达率，我对他说极光的实时送达率很客观的，有实验室数据，但是他还是希望我帮他提供一个可靠的数据，下边是我对实时送达率的一个分析。 当然，针对推送作为开发的我更关注整体送达率（准确送达率），文中也有提到，最简单可靠的方式就是提高a">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.ixin.run/posts/1587547661/avatar.jpg">
+<meta property="article:published_time" content="2020-04-22T09:27:41.000Z">
+<meta property="article:modified_time" content="2021-02-03T02:09:08.597Z">
+<meta property="article:author" content="i猩人">
+<meta property="article:tag" content="Android">
+<meta property="article:tag" content="极光推送">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.ixin.run/posts/1587547661/avatar.jpg">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"url":"https://blog.ixin.run","image":"https://blog.ixin.run/avatar.jpg","description":"","author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"}},{"@context":"http://schema.org","@type":"Article","articleSection":"Android","url":"https://blog.ixin.run/posts/1587547661/","headline":"针对极光推送送达率的探究","image":"https://blog.ixin.run/avatar.jpg","datePublished":"2020-04-22T09:27:41.000Z","dateModified":"2021-02-03T02:09:08.597Z","keywords":"Android,极光推送","description":"前段时间内部一个应用对接了极光推送，开发人当然是我咯，根据多年对极光的认可这块对接还是很有信心的。毕竟是内部系统，送达率要求还是很高的，业务实时性需要，所以产品这块非常看重送达率，我对他说极光的实时送达率很客观的，有实验室数据，但是他还是希望我帮他提供一个可靠的数据，下边是我对实时送达率的一个分析。\n当然，针对推送作为开发的我更关注整体送达率（准确送达率），文中也有提到，最简单可靠的方式就是提高app的存活率。","publisher":{"@type":"Organization","name":"i猩人 - 一个程序员的故事，专注移动互联网","logo":{"@type":"ImageObject","url":"https://blog.ixin.run/avatar.jpg"}},"author":{"@type":"Person","name":"i猩人","description":"ixin.run，一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.ixin.run/posts/1587547661/"}}]</script><link rel="alternate" type="application/atom+xml" title="i猩人 - 一个程序员的故事，专注移动互联网" href="/atom.xml">
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-112498005-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-112498005-1');</script>
+<!-- hexo injector head_end start --><link href="//fonts.googleapis.com/css?family=Noto+Sans|ZCOOL+KuaiLe|Faster+One|Montserrat|Inconsolata" rel="stylesheet"><link href="/styles.43478ea7e28ed563c48b.css" rel="stylesheet">
+<script src="/config.5e0e7bd26d73b1afa649.js"></script>
+
+<link rel="stylesheet" href="/theme.0784bef91ebb8ae6f6dc.css" is="theme">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.3.0"></head>
+<body lang="zh-Hans"><!-- hexo injector body_begin start --><is-a></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script src="/runtime.b15aa7186c559b492b7d.js"></script><script src="/polyfills.824ff89b5f3ca4543a31.js"></script><script src="/main.03652fc423a687c817e8.js"></script><!-- hexo injector body_end end --></body>
+</html>
