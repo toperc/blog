@@ -41,6 +41,163 @@
   </entry>
   
   <entry>
+    <title>认识LRU经典算法</title>
+    <link href="https://blog.ixin.run/posts/1614164385/"/>
+    <id>https://blog.ixin.run/posts/1614164385/</id>
+    <published>2021-02-24T10:59:45.000Z</published>
+    <updated>2021-02-24T13:42:02.353Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;LRU算法是不是听着很耳熟，当然面试经常问到。本文带你了解LRU算法相关经典的实现方式以及为什么采用，至少在面试的时候不至于一问三不知而栽跟头，接下来就看看LRU到底是个啥东西吧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://blog.ixin.run/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="https://blog.ixin.run/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="LRU" scheme="https://blog.ixin.run/tags/LRU/"/>
+    
+    <category term="双链表" scheme="https://blog.ixin.run/tags/%E5%8F%8C%E9%93%BE%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Stream流式编程实现原理</title>
+    <link href="https://blog.ixin.run/posts/1613581746/"/>
+    <id>https://blog.ixin.run/posts/1613581746/</id>
+    <published>2021-02-17T17:09:06.000Z</published>
+    <updated>2021-02-24T13:38:29.600Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;上一篇《&lt;a href=&quot;https://blog.ixin.run/posts/1613575203&quot; target=&quot;_blank&quot;&gt;Stream流式编程知识总结&lt;/a&gt;》我们主要针对Stream流式编程的具体使用方法进行了深入的探讨，但是如果再来一个一问三连&lt;code&gt;what?-why?-then?&lt;/code&gt;是不是又开始懵比了，哈哈，本文就运用一问三连的形式来进行争取不那么麻烦的解释Stream流式编程的实现原理。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/tags/Java/"/>
+    
+    <category term="流式编程" scheme="https://blog.ixin.run/tags/%E6%B5%81%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Stream" scheme="https://blog.ixin.run/tags/Stream/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Stream流式编程知识总结</title>
+    <link href="https://blog.ixin.run/posts/1613575203/"/>
+    <id>https://blog.ixin.run/posts/1613575203/</id>
+    <published>2021-02-17T15:19:29.000Z</published>
+    <updated>2021-02-24T13:38:31.281Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本篇继上一篇《&lt;a href=&quot;https://blog.ixin.run/posts/1613545058&quot; target=&quot;_blank&quot;&gt;Lambda表达式你会吗&lt;/a&gt;》又一篇Java8新特性——流式编程，上篇文章中并没有采用Stream例子来装饰Lambda表达式，害怕有同学看不懂，所以在文章末尾留个彩蛋，本篇文章重点讲一下对Java8中流式编程的运用学习。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/tags/Java/"/>
+    
+    <category term="流式编程" scheme="https://blog.ixin.run/tags/%E6%B5%81%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Stream" scheme="https://blog.ixin.run/tags/Stream/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lambda表达式你会吗</title>
+    <link href="https://blog.ixin.run/posts/1613545058/"/>
+    <id>https://blog.ixin.run/posts/1613545058/</id>
+    <published>2021-02-17T06:57:18.000Z</published>
+    <updated>2021-02-24T13:38:32.879Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Lambda表达式是Java8的一个新特性，使得Java也能进行简单的函数式编程。臃肿的代码轻量化，实现逻辑突出化，可以取代大部分的匿名内部类，写出更优雅的Java代码，尤其在集合的遍历和其他集合操作中，可以极大地优化代码结构。&lt;/p&gt;
+&lt;p&gt;举个简单栗子：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//常规匿名写法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Thread(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Runnable() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;meta&quot;&gt;@Override&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        System.out.println(&lt;span class=&quot;string&quot;&gt;&amp;quot;runnable实现常规写法!&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;).start();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//Lambda表达式写法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Thread(() -&amp;gt; System.out.println(&lt;span class=&quot;string&quot;&gt;&amp;quot;runnable实现lambda写法!&amp;quot;&lt;/span&gt;)).start();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;怎么样？简单吧，一行搞定！下边我就带着大家一起揭开Lambda表达式神秘的面纱。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/tags/Java/"/>
+    
+    <category term="Lambda" scheme="https://blog.ixin.run/tags/Lambda/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>玩转响应式编程RxJava【更新中...】</title>
+    <link href="https://blog.ixin.run/posts/1613529505/"/>
+    <id>https://blog.ixin.run/posts/1613529505/</id>
+    <published>2021-02-17T02:37:38.000Z</published>
+    <updated>2021-02-24T10:27:30.308Z</updated>
+    
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+    <category term="RxJava" scheme="https://blog.ixin.run/tags/RxJava/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>属于我们的0214</title>
+    <link href="https://blog.ixin.run/posts/2/"/>
+    <id>https://blog.ixin.run/posts/2/</id>
+    <published>2021-02-14T06:56:32.000Z</published>
+    <updated>2021-02-24T10:27:30.306Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我是个俗人，爱吃火锅，爱喝奶茶，你呢？&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;is-cipher</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java多态小记</title>
+    <link href="https://blog.ixin.run/posts/1612714489/"/>
+    <id>https://blog.ixin.run/posts/1612714489/</id>
+    <published>2021-02-07T16:14:49.000Z</published>
+    <updated>2021-02-24T10:27:30.305Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Java三大特性：封装、继承和多态，随口就能说出，至于封装和继承太简单了，多态似乎有点迷糊，可以说多态就是封装和继承的组合体，今天回顾一下多态的知识。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/tags/Java/"/>
+    
+    <category term="多态" scheme="https://blog.ixin.run/tags/%E5%A4%9A%E6%80%81/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Jenkins自动化构建（一）玩转Android项目自动化打包</title>
     <link href="https://blog.ixin.run/posts/1612097829/"/>
     <id>https://blog.ixin.run/posts/1612097829/</id>
@@ -263,21 +420,6 @@
   </entry>
   
   <entry>
-    <title>各地隔离政策查询</title>
-    <link href="https://blog.ixin.run/posts/1/"/>
-    <id>https://blog.ixin.run/posts/1/</id>
-    <published>2021-01-10T14:35:51.000Z</published>
-    <updated>2021-01-29T12:51:44.666Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;正在思考一个需求，朋友提醒我该买过年回家的票了，顺便发我一个二维码，打开看是一个各地隔离政策查询工具，好东西，为社会助把力。&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Alibaba插件代码质量检测问题归总</title>
     <link href="https://blog.ixin.run/posts/1589521857/"/>
     <id>https://blog.ixin.run/posts/1589521857/</id>
@@ -319,133 +461,6 @@
     <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
     
     <category term="极光推送" scheme="https://blog.ixin.run/tags/%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WebView高度自适应方案探究</title>
-    <link href="https://blog.ixin.run/posts/1586879992/"/>
-    <id>https://blog.ixin.run/posts/1586879992/</id>
-    <published>2020-04-14T15:59:52.000Z</published>
-    <updated>2021-01-29T12:51:44.650Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Android项目开发中针对webview避免不了混合开发模式，可Android上的webview又很不争气，几乎每个Android版本都有webvie的改动，在国内这种鱼龙混杂环境下出乎意料的问题又很多，这次就谈谈webview高度自适应的问题。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-    <category term="WebView" scheme="https://blog.ixin.run/tags/WebView/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android开机启动的那些事</title>
-    <link href="https://blog.ixin.run/posts/1618224360/"/>
-    <id>https://blog.ixin.run/posts/1618224360/</id>
-    <published>2020-04-12T10:46:00.000Z</published>
-    <updated>2021-01-29T12:51:44.641Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;以前知道AMS、PMS这些概念及其功能，开发的过程中也会用到，就是不知道其来源，好奇心害死猫，扒着扒着扒到系统开机启动这个知识层面上来了，好吧，那今天就说说这个吧！&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
-    
-    <category term="开机启动" scheme="https://blog.ixin.run/tags/%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8/"/>
-    
-    <category term="进程" scheme="https://blog.ixin.run/tags/%E8%BF%9B%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>更好的人生一定要学会做减法</title>
-    <link href="https://blog.ixin.run/posts/1586535410/"/>
-    <id>https://blog.ixin.run/posts/1586535410/</id>
-    <published>2020-04-10T16:16:50.000Z</published>
-    <updated>2021-01-29T12:51:44.670Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;最近看到一篇人民日报推的一碗鸡汤——&lt;a href=&quot;https://mp.weixin.qq.com/s/T50i62CuYjNexnn0BCPp6Q&quot; target=&quot;_blank&quot;&gt;《更好的人生，要学会做减法》&lt;/a&gt;，我平时很少看这类鸡汤文章，但是这篇却无意触动了我，没有讲述故事，短小的一篇，仅仅列了几点，但是这几点却是我在这将近一年中感触最深的：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;学会欲望极简&lt;/li&gt;
-&lt;li&gt;学会物质极简&lt;/li&gt;
-&lt;li&gt;学会社交极简&lt;/li&gt;
-&lt;li&gt;学会信息极简&lt;/li&gt;
-&lt;li&gt;学会心事极简&lt;/li&gt;
-&lt;li&gt;学会生活极简&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;越来越发现自己对生活的细小琐事记性不好，这里做一个笔录，也是为了提醒自己在日后的这么长时间里认真生活。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="生活" scheme="https://blog.ixin.run/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="生活" scheme="https://blog.ixin.run/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android开发View滑动冲突处理</title>
-    <link href="https://blog.ixin.run/posts/1586534751/"/>
-    <id>https://blog.ixin.run/posts/1586534751/</id>
-    <published>2020-04-10T16:05:51.000Z</published>
-    <updated>2021-01-29T12:51:44.629Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;最近在重构一个老项目，遇到ScrollView嵌套WebView的场景，因为WebView加载的网页并不是自适应，所以导致在滑动网页的时候异常卡顿，很明显是滑动冲突了，解决方式也很常规，针对滑动冲突这里顺便做笔记吧。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-    <category term="View" scheme="https://blog.ixin.run/tags/View/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android开发约束布局ConstraintLayout学习总结</title>
-    <link href="https://blog.ixin.run/posts/1584977277/"/>
-    <id>https://blog.ixin.run/posts/1584977277/</id>
-    <published>2020-03-23T15:27:57.000Z</published>
-    <updated>2021-01-29T12:51:44.640Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;小伙伴都知道Android开发有常用的五大布局：LinearLayout、RelateLayout、FrameLayout、AbsolutLayout和TableLayout，今天再总结一个比较牛掰的一个布局——ConstraintLayout，完全可以代替LinearLayout和RelateLayout，具体为什么要使用他和怎么用是接下来需要说的。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-    <category term="布局" scheme="https://blog.ixin.run/tags/%E5%B8%83%E5%B1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>View手势GestureDetector使用</title>
-    <link href="https://blog.ixin.run/posts/1584803165/"/>
-    <id>https://blog.ixin.run/posts/1584803165/</id>
-    <published>2020-03-21T15:06:05.000Z</published>
-    <updated>2021-01-29T12:51:44.649Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;开发同学都知道自定义view的时候可以重写onTouch()方法，进而扩展按下、移动、松开这三个函数，这也是常用的形式。但是这个方法太过简单，如果需要处理一些复杂的手势，用这个接口就会很麻烦。Android其实有一个手势库——GestureDetector，已经为我们封装了一些常用的手势方法，接下来就总结一下GestureDetector的使用和总结。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-    <category term="View" scheme="https://blog.ixin.run/tags/View/"/>
     
   </entry>
   
