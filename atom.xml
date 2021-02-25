@@ -41,6 +41,25 @@
   </entry>
   
   <entry>
+    <title>极度干货——GitHub受欢迎的Android UI Library整理</title>
+    <link href="https://blog.ixin.run/posts/1614235078/"/>
+    <id>https://blog.ixin.run/posts/1614235078/</id>
+    <published>2021-02-25T06:37:58.000Z</published>
+    <updated>2021-02-25T06:53:34.505Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Android开发者福音，极度干货，以下是安卓UI相关开源项目库集合整理，开发必备，欢迎收藏，点赞。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>认识LRU经典算法</title>
     <link href="https://blog.ixin.run/posts/1614164385/"/>
     <id>https://blog.ixin.run/posts/1614164385/</id>
@@ -439,28 +458,6 @@
     <category term="CodeReview" scheme="https://blog.ixin.run/tags/CodeReview/"/>
     
     <category term="代码检测" scheme="https://blog.ixin.run/tags/%E4%BB%A3%E7%A0%81%E6%A3%80%E6%B5%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>针对极光推送送达率的探究</title>
-    <link href="https://blog.ixin.run/posts/1587547661/"/>
-    <id>https://blog.ixin.run/posts/1587547661/</id>
-    <published>2020-04-22T09:27:41.000Z</published>
-    <updated>2021-02-03T02:09:08.597Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;前段时间内部一个应用对接了极光推送，开发人当然是我咯，根据多年对极光的认可这块对接还是很有信心的。毕竟是内部系统，送达率要求还是很高的，业务实时性需要，所以产品这块非常看重送达率，我对他说极光的实时送达率很客观的，有实验室数据，但是他还是希望我帮他提供一个可靠的数据，下边是我对实时送达率的一个分析。&lt;/p&gt;
-&lt;p&gt;当然，针对推送作为开发的我更关注整体送达率（准确送达率），文中也有提到，最简单可靠的方式就是提高app的存活率。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
-    
-    <category term="极光推送" scheme="https://blog.ixin.run/tags/%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81/"/>
     
   </entry>
   
