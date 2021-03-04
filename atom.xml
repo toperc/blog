@@ -41,11 +41,101 @@
   </entry>
   
   <entry>
+    <title>Android开发之玩转Android属性动画</title>
+    <link href="https://blog.ixin.run/posts/1614527870/"/>
+    <id>https://blog.ixin.run/posts/1614527870/</id>
+    <published>2021-02-28T15:57:29.000Z</published>
+    <updated>2021-03-03T05:20:37.286Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;前两篇重点讲述了Android开发过程中补间动画和帧动画知识点，本篇文章我们重点总结一下属性动画的使用和原理。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+    <category term="动画" scheme="https://blog.ixin.run/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发之玩转Android帧动画</title>
+    <link href="https://blog.ixin.run/posts/1614486338/"/>
+    <id>https://blog.ixin.run/posts/1614486338/</id>
+    <published>2021-02-28T04:25:24.000Z</published>
+    <updated>2021-03-03T05:20:37.286Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;帧动画有着极其广泛的应用，也非常容易理解，其实就是简单的由N张静态图片收集起来，然后我们通过控制依次显示这些图片，因为人眼&amp;quot;视觉残留&amp;quot;的原因，会让我们造成动画的&amp;quot;错觉&amp;quot;，跟放电影的原理一样！Android中展示这种形式一般有两种方式，一种用AnimationDrawable实现，另外一种直接引用GIF实现。本文就给阐述一下如何通过AnimationDrawable实现帧动画。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+    <category term="动画" scheme="https://blog.ixin.run/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发之玩转Android补间动画</title>
+    <link href="https://blog.ixin.run/posts/1614434754/"/>
+    <id>https://blog.ixin.run/posts/1614434754/</id>
+    <published>2021-02-27T14:05:15.000Z</published>
+    <updated>2021-03-03T05:20:37.287Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;提起动画，无论是哪种语言哪种系统框架，比如说android、iOS、H5、Flash等，动画在其之中都扮演着举足轻重的角色。Android系统中最常用的动画方式有三种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;补间动画（Tween Animation）&lt;/li&gt;
+&lt;li&gt;帧动画（Frame Animation）&lt;/li&gt;
+&lt;li&gt;属性动画（Property Animation）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本文就总结一下补间动画的相关玩法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+    <category term="动画" scheme="https://blog.ixin.run/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你知道ImageView的ScaleType怎么用吗</title>
+    <link href="https://blog.ixin.run/posts/1614424714/"/>
+    <id>https://blog.ixin.run/posts/1614424714/</id>
+    <published>2021-02-27T11:18:34.000Z</published>
+    <updated>2021-03-03T05:20:37.289Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;如果你像我一样很容易健忘，那么你也应该像我一样有一个好习惯——“好记性不如赖笔头”。Android开发中ImageView的ScaleType属性就有很多选择，说实话我是真的记不住这么多类型的用法，所以只有用笔记下来咯，用的时候直接翻看一下，2分钟搞定。你知道ImageView的ScaleType怎么用吗？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
+    
+    <category term="ImageView" scheme="https://blog.ixin.run/tags/ImageView/"/>
+    
+  </entry>
+  
+  <entry>
     <title>极度干货——GitHub受欢迎的Android UI Library整理</title>
     <link href="https://blog.ixin.run/posts/1614235078/"/>
     <id>https://blog.ixin.run/posts/1614235078/</id>
     <published>2021-02-25T06:37:58.000Z</published>
-    <updated>2021-02-25T06:53:34.505Z</updated>
+    <updated>2021-03-03T05:20:37.288Z</updated>
     
     
     <summary type="html">&lt;p&gt;Android开发者福音，极度干货，以下是安卓UI相关开源项目库集合整理，开发必备，欢迎收藏，点赞。&lt;/p&gt;</summary>
@@ -173,10 +263,10 @@
   
   <entry>
     <title>属于我们的0214</title>
-    <link href="https://blog.ixin.run/posts/2/"/>
-    <id>https://blog.ixin.run/posts/2/</id>
+    <link href="https://blog.ixin.run/posts/1613285792/"/>
+    <id>https://blog.ixin.run/posts/1613285792/</id>
     <published>2021-02-14T06:56:32.000Z</published>
-    <updated>2021-02-24T10:27:30.306Z</updated>
+    <updated>2021-03-03T05:20:37.289Z</updated>
     
     
       
@@ -192,6 +282,12 @@
     
     
     
+    <category term="生活" scheme="https://blog.ixin.run/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="生活" scheme="https://blog.ixin.run/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="爱情" scheme="https://blog.ixin.run/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
@@ -368,96 +464,6 @@
     <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
     
     <category term="新特性" scheme="https://blog.ixin.run/tags/%E6%96%B0%E7%89%B9%E6%80%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android Library如何在GitHub上开源</title>
-    <link href="https://blog.ixin.run/posts/1611422519/"/>
-    <id>https://blog.ixin.run/posts/1611422519/</id>
-    <published>2021-01-23T17:21:59.000Z</published>
-    <updated>2021-01-29T12:51:44.654Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;平时我们在Android开发过程中引用了很多依赖，不乏有很多Github上开源的Library，例如JakeWharton的&lt;a href=&quot;https://github.com/JakeWharton/butterknife&quot; target=&quot;_blank&quot;&gt;黄油刀&lt;/a&gt;依赖如下：&lt;/p&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;dependencies &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  implementation &lt;span class=&quot;string&quot;&gt;&amp;#x27;com.jakewharton:butterknife:10.2.3&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  annotationProcessor &lt;span class=&quot;string&quot;&gt;&amp;#x27;com.jakewharton:butterknife-compiler:10.2.3&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;独乐乐不如众乐乐，那么我们怎样如何将我们自己写的Library发布到Github上开源供别人使用呢？下边我就用我自己的Library简单说一下。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="DevOps" scheme="https://blog.ixin.run/categories/DevOps/"/>
-    
-    
-    <category term="DevOps" scheme="https://blog.ixin.run/tags/DevOps/"/>
-    
-    <category term="GitHub" scheme="https://blog.ixin.run/tags/GitHub/"/>
-    
-    <category term="Library" scheme="https://blog.ixin.run/tags/Library/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown基本使用方法</title>
-    <link href="https://blog.ixin.run/posts/1610311108/"/>
-    <id>https://blog.ixin.run/posts/1610311108/</id>
-    <published>2021-01-10T20:37:54.000Z</published>
-    <updated>2021-01-29T12:51:44.667Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;最初接触Markdown编辑法是从上大学开始的，至今有八九年了，特点就是简洁、简洁还是简洁，这里是我个人总结的一些Markdown基本使用技巧，共日常参考。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术总结" scheme="https://blog.ixin.run/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/"/>
-    
-    
-    <category term="markdown" scheme="https://blog.ixin.run/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>带你玩转Hexo——网站搭建</title>
-    <link href="https://blog.ixin.run/posts/1610308156/"/>
-    <id>https://blog.ixin.run/posts/1610308156/</id>
-    <published>2021-01-10T16:28:31.000Z</published>
-    <updated>2021-01-29T12:51:44.655Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;我的博客用的是Hexo框架，有一段时间没有倒腾它了，最近浏览&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot;&gt;官网&lt;/a&gt;发现hexo版本已经到5.3.0了，我自己的还是4.0时代，瞅了一下5.0版本的升级日志是各种牛逼，我也看不懂，是时候升级一波体验一下，顺便总结一下自己对hexo的玩法。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="DevOps" scheme="https://blog.ixin.run/categories/DevOps/"/>
-    
-    
-    <category term="DevOps" scheme="https://blog.ixin.run/tags/DevOps/"/>
-    
-    <category term="Hexo" scheme="https://blog.ixin.run/tags/Hexo/"/>
-    
-    <category term="网站搭建" scheme="https://blog.ixin.run/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Alibaba插件代码质量检测问题归总</title>
-    <link href="https://blog.ixin.run/posts/1589521857/"/>
-    <id>https://blog.ixin.run/posts/1589521857/</id>
-    <published>2020-05-15T05:50:57.000Z</published>
-    <updated>2021-01-29T12:51:44.656Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;前段时间针对公司老项目做了一次代码规范质量检查，采用的是阿里巴巴代码检测插件进行检测，检查结果并不理想，老项目比较重，开发迭代人员比较多，本文就是对这些检查点做一个记录，方便之后回顾。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://blog.ixin.run/tags/Java/"/>
-    
-    <category term="CodeReview" scheme="https://blog.ixin.run/tags/CodeReview/"/>
-    
-    <category term="代码检测" scheme="https://blog.ixin.run/tags/%E4%BB%A3%E7%A0%81%E6%A3%80%E6%B5%8B/"/>
     
   </entry>
   
