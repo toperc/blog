@@ -45,16 +45,10 @@
     <link href="https://blog.ixin.run/posts/1615946471/"/>
     <id>https://blog.ixin.run/posts/1615946471/</id>
     <published>2021-03-17T02:00:44.000Z</published>
-    <updated>2021-03-17T03:26:54.531Z</updated>
+    <updated>2021-03-17T14:05:23.795Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;作为移动开发的我们平时关注更多的关注业务上的实现和技术的提升，而技术的提升也是为了更好的维护好我们的业务。但是我们很少关注有关apk的一些问题：一个apk的内部构造有哪些？一个apk是怎么从我们的java代码或者kotlin工程编译出来的？以及apk编译需要哪些步骤？如果把apk的编译过程研究</summary>
-        
-      
+    <summary type="html">&lt;p&gt;作为移动开发的我们平时关注更多的关注业务上的实现和技术的提升，而技术的提升也是为了更好的维护好我们的业务。但是我们很少关注有关apk的一些问题：一个apk的内部构造有哪些？一个apk是怎么从我们的java代码或者kotlin工程编译出来的？以及apk编译需要哪些步骤？如果把apk的编译过程研究透了，那将会继续拓宽我们的技术栈。本文就浅谈一下Android项目编译成apk的内部流程。&lt;/p&gt;</summary>
     
     
     
