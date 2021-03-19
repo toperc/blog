@@ -41,11 +41,37 @@
   </entry>
   
   <entry>
+    <title>Java类加载机制</title>
+    <link href="https://blog.ixin.run/posts/1616149094/"/>
+    <id>https://blog.ixin.run/posts/1616149094/</id>
+    <published>2021-03-19T10:18:14.000Z</published>
+    <updated>2021-03-19T12:38:14.412Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我们知道Class文件中描述的各种信息最终都需要加载到虚拟机中之后才能运行和使用。而虚拟机如何加载这些Class文件？Class文件中的信息进入到虚拟机后会发生什么变化？本文就带你认识一下Java的类加载机制，相信你看过本文之后一切都清楚明了了。&lt;/p&gt;
+&lt;h2 id=&quot;开胃汤&quot;&gt;开胃汤&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
+    
+    
+    <category term="类加载机制" scheme="https://blog.ixin.run/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>浅谈Android编译打包流程</title>
     <link href="https://blog.ixin.run/posts/1615946471/"/>
     <id>https://blog.ixin.run/posts/1615946471/</id>
     <published>2021-03-17T02:00:44.000Z</published>
-    <updated>2021-03-17T14:05:23.795Z</updated>
+    <updated>2021-03-19T10:14:36.994Z</updated>
     
     
     <summary type="html">&lt;p&gt;作为移动开发的我们平时关注更多的关注业务上的实现和技术的提升，而技术的提升也是为了更好的维护好我们的业务。但是我们很少关注有关apk的一些问题：一个apk的内部构造有哪些？一个apk是怎么从我们的java代码或者kotlin工程编译出来的？以及apk编译需要哪些步骤？如果把apk的编译过程研究透了，那将会继续拓宽我们的技术栈。本文就浅谈一下Android项目编译成apk的内部流程。&lt;/p&gt;</summary>
@@ -421,30 +447,6 @@
     <category term="流式编程" scheme="https://blog.ixin.run/tags/%E6%B5%81%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
     
     <category term="Stream" scheme="https://blog.ixin.run/tags/Stream/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Lambda表达式你会吗</title>
-    <link href="https://blog.ixin.run/posts/1613545058/"/>
-    <id>https://blog.ixin.run/posts/1613545058/</id>
-    <published>2021-02-17T06:57:18.000Z</published>
-    <updated>2021-02-24T13:38:32.879Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Lambda表达式是Java8的一个新特性，使得Java也能进行简单的函数式编程。臃肿的代码轻量化，实现逻辑突出化，可以取代大部分的匿名内部类，写出更优雅的Java代码，尤其在集合的遍历和其他集合操作中，可以极大地优化代码结构。&lt;/p&gt;
-&lt;p&gt;举个简单栗子：&lt;/p&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//常规匿名写法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Thread(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Runnable() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;meta&quot;&gt;@Override&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        System.out.println(&lt;span class=&quot;string&quot;&gt;&amp;quot;runnable实现常规写法!&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;).start();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//Lambda表达式写法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Thread(() -&amp;gt; System.out.println(&lt;span class=&quot;string&quot;&gt;&amp;quot;runnable实现lambda写法!&amp;quot;&lt;/span&gt;)).start();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;怎么样？简单吧，一行搞定！下边我就带着大家一起揭开Lambda表达式神秘的面纱。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://blog.ixin.run/tags/Java/"/>
-    
-    <category term="Lambda" scheme="https://blog.ixin.run/tags/Lambda/"/>
     
   </entry>
   
