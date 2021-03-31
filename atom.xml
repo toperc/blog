@@ -41,21 +41,33 @@
   </entry>
   
   <entry>
+    <title>浅入深出了解Android传感器</title>
+    <link href="https://blog.ixin.run/posts/1617159391/"/>
+    <id>https://blog.ixin.run/posts/1617159391/</id>
+    <published>2021-03-31T02:55:54.000Z</published>
+    <updated>2021-03-31T12:04:11.269Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;提到手机上的传感器大家应该都不陌生，比如说方向传感器、陀螺仪、重力传感器、光线传感器等。现在的手机基本集成少说有十几种传感器，面向将来的人工智能，这块知识也是我们必备的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="传感器" scheme="https://blog.ixin.run/tags/%E4%BC%A0%E6%84%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java类加载机制</title>
     <link href="https://blog.ixin.run/posts/1616149094/"/>
     <id>https://blog.ixin.run/posts/1616149094/</id>
     <published>2021-03-19T10:18:14.000Z</published>
-    <updated>2021-03-19T12:38:14.412Z</updated>
+    <updated>2021-03-31T02:41:27.968Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;我们知道Class文件中描述的各种信息最终都需要加载到虚拟机中之后才能运行和使用。而虚拟机如何加载这些Class文件？Class文件中的信息进入到虚拟机后会发生什么变化？本文就带你认识一下Java的类加载机制，相信你看过本文之后一切都清楚明了了。&lt;/p&gt;
-&lt;h2 id=&quot;开胃汤&quot;&gt;开胃汤&lt;a</summary>
-        
-      
+    <summary type="html">&lt;p&gt;我们知道Class文件中描述的各种信息最终都需要加载到虚拟机中之后才能运行和使用。而虚拟机如何加载这些Class文件？Class文件中的信息进入到虚拟机后会发生什么变化？本文就带你认识一下Java的类加载机制，相信你看过本文之后一切都清楚明了了。&lt;/p&gt;</summary>
     
     
     
@@ -413,29 +425,6 @@
     
     
     <summary type="html">&lt;p&gt;上一篇《&lt;a href=&quot;https://blog.ixin.run/posts/1613575203&quot; target=&quot;_blank&quot;&gt;Stream流式编程知识总结&lt;/a&gt;》我们主要针对Stream流式编程的具体使用方法进行了深入的探讨，但是如果再来一个一问三连&lt;code&gt;what?-why?-then?&lt;/code&gt;是不是又开始懵比了，哈哈，本文就运用一问三连的形式来进行争取不那么麻烦的解释Stream流式编程的实现原理。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://blog.ixin.run/tags/Java/"/>
-    
-    <category term="流式编程" scheme="https://blog.ixin.run/tags/%E6%B5%81%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
-    
-    <category term="Stream" scheme="https://blog.ixin.run/tags/Stream/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Stream流式编程知识总结</title>
-    <link href="https://blog.ixin.run/posts/1613575203/"/>
-    <id>https://blog.ixin.run/posts/1613575203/</id>
-    <published>2021-02-17T15:19:29.000Z</published>
-    <updated>2021-02-24T13:38:31.281Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本篇继上一篇《&lt;a href=&quot;https://blog.ixin.run/posts/1613545058&quot; target=&quot;_blank&quot;&gt;Lambda表达式你会吗&lt;/a&gt;》又一篇Java8新特性——流式编程，上篇文章中并没有采用Stream例子来装饰Lambda表达式，害怕有同学看不懂，所以在文章末尾留个彩蛋，本篇文章重点讲一下对Java8中流式编程的运用学习。&lt;/p&gt;</summary>
     
     
     
