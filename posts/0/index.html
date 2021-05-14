@@ -1,29 +1,29 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head><!-- hexo injector head_begin start -->
-<script src="/config.1ebbf7eec17cc4ffecf6.js"></script>
+<script src="/config.eec8c5cf941d3f74b0fd.js"></script>
 <!-- hexo injector head_begin end -->
 <meta charset="utf-8">
-<title>DO AS ONE WISHES - i猩人 - 一个程序员的故事，专注移动互联网</title>
+<title>Android组件化APT技术实践 - i猩人 - 一个程序员的故事，专注移动互联网</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="canonical" href="https://blog.ixin.run/posts/0/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-<meta name="description" content="一个合格的程序员都有自己的风格：执着、追求、向上、完美主义、无所畏惧、高傲但不自大、也有风骚也有爱、狼性编程并不只是为了工作…终极梦想就是随心所欲，凤凰涅槃。  在其位谋其职，在我还没有想到下条路的时候或者现阶段不想想太多，那么我需要做的就是把眼前的事做好，把我人生在这个阶段的时光过的有意义一些，或许这件事回报的比较慢，回报率比较低，但我认为它是值得的，至少是目前是。当然我也是一个不安现状的人。">
+<meta name="description" content="说起注解处理器，Android程序员都比较兴奋，因为在开发过程中我们常用的一些明星框架，例如ButterKnife、EventBus、Dagger以及阿里的ARouter都采用是注解处理器技术。简单注解，简单的api，超高的性能等诸多优点，本文就带你从整体出发探讨以下APT技术是怎么玩的。 什么是APT APT全称“Annotation Processing Tool”，即注解处理器，是javac">
 <meta property="og:type" content="website">
-<meta property="og:title" content="DO AS ONE WISHES">
+<meta property="og:title" content="Android组件化APT技术实践">
 <meta property="og:url" content="https://blog.ixin.run/posts/0/index.html">
 <meta property="og:site_name" content="i猩人 - 一个程序员的故事，专注移动互联网">
-<meta property="og:description" content="一个合格的程序员都有自己的风格：执着、追求、向上、完美主义、无所畏惧、高傲但不自大、也有风骚也有爱、狼性编程并不只是为了工作…终极梦想就是随心所欲，凤凰涅槃。  在其位谋其职，在我还没有想到下条路的时候或者现阶段不想想太多，那么我需要做的就是把眼前的事做好，把我人生在这个阶段的时光过的有意义一些，或许这件事回报的比较慢，回报率比较低，但我认为它是值得的，至少是目前是。当然我也是一个不安现状的人。">
+<meta property="og:description" content="说起注解处理器，Android程序员都比较兴奋，因为在开发过程中我们常用的一些明星框架，例如ButterKnife、EventBus、Dagger以及阿里的ARouter都采用是注解处理器技术。简单注解，简单的api，超高的性能等诸多优点，本文就带你从整体出发探讨以下APT技术是怎么玩的。 什么是APT APT全称“Annotation Processing Tool”，即注解处理器，是javac">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://area.sinaapp.com/bingImg">
-<meta property="article:published_time" content="2098-12-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-02-01T11:34:21.320Z">
+<meta property="og:image" content="https://blog.ixin.run/posts/0/avatar.jpg">
+<meta property="article:published_time" content="2021-04-30T06:42:31.000Z">
+<meta property="article:modified_time" content="2021-05-14T13:23:58.024Z">
 <meta property="article:author" content="i猩人">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://area.sinaapp.com/bingImg">
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"i猩人","description":"一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"url":"https://blog.ixin.run","image":"https://blog.ixin.run/avatar.jpg","description":"","author":{"@type":"Person","name":"i猩人","description":"一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"}},{"@context":"http://schema.org","@type":"Article","articleSection":"","url":"https://blog.ixin.run/posts/0/","headline":"DO AS ONE WISHES","image":"https://area.sinaapp.com/bingImg","datePublished":"2098-12-31T16:00:00.000Z","dateModified":"2021-02-01T11:34:21.320Z","keywords":"","description":"","publisher":{"@type":"Organization","name":"i猩人 - 一个程序员的故事，专注移动互联网","logo":{"@type":"ImageObject","url":"https://blog.ixin.run/avatar.jpg"}},"author":{"@type":"Person","name":"i猩人","description":"一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.ixin.run/posts/0/"},"thumbnailUrl":"https://area.sinaapp.com/bingImg"}]</script><link rel="alternate" type="application/atom+xml" title="i猩人 - 一个程序员的故事，专注移动互联网" href="/atom.xml">
+<meta name="twitter:image" content="https://blog.ixin.run/posts/0/avatar.jpg">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"i猩人","description":"一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"url":"https://blog.ixin.run","image":"https://blog.ixin.run/avatar.jpg","description":"","author":{"@type":"Person","name":"i猩人","description":"一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"}},{"@context":"http://schema.org","@type":"Article","articleSection":"","url":"https://blog.ixin.run/posts/0/","headline":"Android组件化APT技术实践","image":"https://blog.ixin.run/avatar.jpg","datePublished":"2021-04-30T06:42:31.000Z","dateModified":"2021-05-14T13:23:58.024Z","keywords":"","description":"","publisher":{"@type":"Organization","name":"i猩人 - 一个程序员的故事，专注移动互联网","logo":{"@type":"ImageObject","url":"https://blog.ixin.run/avatar.jpg"}},"author":{"@type":"Person","name":"i猩人","description":"一个程序员的故事，专注移动互联网。","image":"https://blog.ixin.run/avatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"zh-Hans"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.ixin.run/posts/0/"}}]</script><link rel="alternate" type="application/atom+xml" title="i猩人 - 一个程序员的故事，专注移动互联网" href="/atom.xml">
 <script async src="//www.googletagmanager.com/gtag/js?id=UA-112498005-1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-112498005-1');</script>
 <!-- hexo injector head_end start --><style is="theme">html{--inside-accent-color:#0C7D9D;--inside-foreground-color:#363636;--inside-border-color:#e0e0e0;--inside-background:url(background.png);--inside-sidebar-background:#363636;--inside-card-background:#fff;--inside-font-base:Noto Sans;--inside-font-logo:ZCOOL KuaiLe,Noto Sans;--inside-font-menu:Faster One,Noto Sans;--inside-font-heading:Palanquin Dark,Noto Sans;--inside-font-label:Montserrat,Noto Sans;--inside-font-code:Inconsolata;--inside-font-print:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;--inside-content-width:768px;--inside-highlight-00:#2d2d2d;--inside-highlight-01:#393939;--inside-highlight-02:#515151;--inside-highlight-03:#747369;--inside-highlight-04:#a09f93;--inside-highlight-05:#d3d0c8;--inside-highlight-06:#e8e6df;--inside-highlight-07:#f2f0ec;--inside-highlight-08:#f2777a;--inside-highlight-09:#f99157;--inside-highlight-0a:#ffcc66;--inside-highlight-0b:#99cc99;--inside-highlight-0c:#66cccc;--inside-highlight-0d:#6699cc;--inside-highlight-0e:#cc99cc;--inside-highlight-0f:#d27b53;--inside-card-color:#fff;--inside-accent-color-005:rgba(12,125,157,.05);--inside-accent-color-01:rgba(12,125,157,.1);--inside-accent-color-02:rgba(12,125,157,.2);--inside-accent-color-04:rgba(12,125,157,.4);--inside-accent-color-08:rgba(12,125,157,.8)}</style><link href="//fonts.googleapis.com/css?family=Noto+Sans|ZCOOL+KuaiLe|Faster+One|Montserrat|Palanquin+Dark|Inconsolata" rel="stylesheet"></link>

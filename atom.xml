@@ -41,11 +41,57 @@
   </entry>
   
   <entry>
+    <title>Android组件化APT技术实践</title>
+    <link href="https://blog.ixin.run/posts/0/"/>
+    <id>https://blog.ixin.run/posts/0/</id>
+    <published>2021-04-30T06:42:31.000Z</published>
+    <updated>2021-05-14T13:23:58.024Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;说起注解处理器，Android程序员都比较兴奋，因为在开发过程中我们常用的一些明星框架，例如&lt;code&gt;ButterKnife&lt;/code&gt;、&lt;code&gt;EventBus&lt;/code&gt;、&lt;code&gt;Dagger&lt;/code&gt;以及阿里的&lt;code&gt;ARouter&lt;/code&gt;都采用是注解处理器技</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android组件化可行性方案探讨和思考</title>
+    <link href="https://blog.ixin.run/posts/1618992460/"/>
+    <id>https://blog.ixin.run/posts/1618992460/</id>
+    <published>2021-04-21T08:06:46.000Z</published>
+    <updated>2021-04-21T14:06:46.415Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;为什么要组件化&quot;&gt;为什么要组件化&lt;a title=&quot;#为什么要组件化&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
+    
+    
+    <category term="组件化" scheme="https://blog.ixin.run/tags/%E7%BB%84%E4%BB%B6%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>浅入深出了解Android传感器</title>
     <link href="https://blog.ixin.run/posts/1617159391/"/>
     <id>https://blog.ixin.run/posts/1617159391/</id>
     <published>2021-03-31T02:55:54.000Z</published>
-    <updated>2021-03-31T12:04:11.269Z</updated>
+    <updated>2021-04-21T08:07:13.059Z</updated>
     
     
     <summary type="html">&lt;p&gt;提到手机上的传感器大家应该都不陌生，比如说方向传感器、陀螺仪、重力传感器、光线传感器等。现在的手机基本集成少说有十几种传感器，面向将来的人工智能，这块知识也是我们必备的。&lt;/p&gt;</summary>
@@ -390,52 +436,6 @@
     
     
     <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>认识LRU经典算法</title>
-    <link href="https://blog.ixin.run/posts/1614164385/"/>
-    <id>https://blog.ixin.run/posts/1614164385/</id>
-    <published>2021-02-24T10:59:45.000Z</published>
-    <updated>2021-02-24T13:42:02.353Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;LRU算法是不是听着很耳熟，当然面试经常问到。本文带你了解LRU算法相关经典的实现方式以及为什么采用，至少在面试的时候不至于一问三不知而栽跟头，接下来就看看LRU到底是个啥东西吧。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="算法" scheme="https://blog.ixin.run/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="算法" scheme="https://blog.ixin.run/tags/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="LRU" scheme="https://blog.ixin.run/tags/LRU/"/>
-    
-    <category term="双链表" scheme="https://blog.ixin.run/tags/%E5%8F%8C%E9%93%BE%E8%A1%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Stream流式编程实现原理</title>
-    <link href="https://blog.ixin.run/posts/1613581746/"/>
-    <id>https://blog.ixin.run/posts/1613581746/</id>
-    <published>2021-02-17T17:09:06.000Z</published>
-    <updated>2021-02-24T13:38:29.600Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;上一篇《&lt;a href=&quot;https://blog.ixin.run/posts/1613575203&quot; target=&quot;_blank&quot;&gt;Stream流式编程知识总结&lt;/a&gt;》我们主要针对Stream流式编程的具体使用方法进行了深入的探讨，但是如果再来一个一问三连&lt;code&gt;what?-why?-then?&lt;/code&gt;是不是又开始懵比了，哈哈，本文就运用一问三连的形式来进行争取不那么麻烦的解释Stream流式编程的实现原理。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Java" scheme="https://blog.ixin.run/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://blog.ixin.run/tags/Java/"/>
-    
-    <category term="流式编程" scheme="https://blog.ixin.run/tags/%E6%B5%81%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
-    
-    <category term="Stream" scheme="https://blog.ixin.run/tags/Stream/"/>
     
   </entry>
   
