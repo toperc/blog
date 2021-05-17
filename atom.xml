@@ -45,7 +45,7 @@
     <link href="https://blog.ixin.run/posts/1619764951/"/>
     <id>https://blog.ixin.run/posts/1619764951/</id>
     <published>2021-04-30T06:42:31.000Z</published>
-    <updated>2021-05-17T09:04:10.822Z</updated>
+    <updated>2021-05-17T10:08:06.879Z</updated>
     
     
     <summary type="html">&lt;p&gt;说起注解处理器，Android程序员都比较兴奋，因为在开发过程中我们常用的一些明星框架，例如&lt;code&gt;ButterKnife&lt;/code&gt;、&lt;code&gt;EventBus&lt;/code&gt;、&lt;code&gt;Dagger&lt;/code&gt;以及阿里的&lt;code&gt;ARouter&lt;/code&gt;都采用是注解处理器技术。简单注解，简单的api，超高的性能等诸多优点，本文就带你从整体出发探讨以下APT技术是怎么玩的。&lt;/p&gt;</summary>
