@@ -41,6 +41,25 @@
   </entry>
   
   <entry>
+    <title>常见算法解题思路</title>
+    <link href="https://blog.ixin.run/posts/1621934400/"/>
+    <id>https://blog.ixin.run/posts/1621934400/</id>
+    <published>2021-05-25T09:19:41.000Z</published>
+    <updated>2021-05-25T10:04:42.349Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;个人总结的一些算法，及解题思路。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://blog.ixin.run/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="https://blog.ixin.run/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Android注解处理器APT技术探究</title>
     <link href="https://blog.ixin.run/posts/1619764951/"/>
     <id>https://blog.ixin.run/posts/1619764951/</id>
@@ -409,25 +428,6 @@
     <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
     
     <category term="ImageView" scheme="https://blog.ixin.run/tags/ImageView/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>极度干货——GitHub受欢迎的Android UI Library整理</title>
-    <link href="https://blog.ixin.run/posts/1614235078/"/>
-    <id>https://blog.ixin.run/posts/1614235078/</id>
-    <published>2021-02-25T06:37:58.000Z</published>
-    <updated>2021-03-03T05:20:37.288Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Android开发者福音，极度干货，以下是安卓UI相关开源项目库集合整理，开发必备，欢迎收藏，点赞。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/categories/Android/"/>
-    
-    
-    <category term="Android" scheme="https://blog.ixin.run/tags/Android/"/>
     
   </entry>
   
